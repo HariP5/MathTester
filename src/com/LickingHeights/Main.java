@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 	String firstWord;
 	String secondWord;
-    int firstNumber,secondNumber;
+    int firstNumber,secondNumber,total;
 
 
 
@@ -14,8 +14,13 @@ public class Main {
 
 	firstNumber = 5;
 	secondNumber = 10;
+	total = firstNumber+secondNumber;
+	System.out.println(total);
+    total = total + 10;
+    System.out.println(total);
 
-	System.out.println(firstWord+secondWord);
+
+	/*System.out.println(firstWord+secondWord);
 	System.out.println(firstWord+(firstNumber+secondNumber));
 	System.out.println("firstNumber + secondNumber is " +(firstNumber+secondNumber));
 	System.out.println("firstNumber + secondNumber is " +(firstNumber-secondNumber));
@@ -23,7 +28,7 @@ public class Main {
 	System.out.println("firstNumber * secondNumber is " +(firstNumber*secondNumber));
 	System.out.println("firstNumber + secondNumber is " +(firstNumber-secondNumber));
 	System.out.println("The modulus of the secondNumber by the firstNumber"+(firstNumber%secondNumber));
-
+*/
 
 
 
